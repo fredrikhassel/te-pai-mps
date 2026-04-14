@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: mps-tepai
+Version: 0.1.0
+Summary: MPS-based Time-Evolution via Probabilistic Approximate Identity (TE-PAI)
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.24
+Requires-Dist: scipy>=1.10
+Requires-Dist: quimb>=1.8
+Requires-Dist: numba>=0.58
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
