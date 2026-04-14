@@ -8,6 +8,8 @@ This repository contains:
 2. **Experiment scripts** that reproduce the figures in the paper.
 3. **Pre-computed datasets** so that figures can be regenerated from cached data without re-running the simulations.
 
+This repository builds on the original TE-PAI codebase, adapting and extending it to the matrix-product-state setting used in this work. In particular, the present implementation restructures the core algorithm for MPS-based contraction, adds the experiment pipeline used for the results reported in the paper, and includes cached datasets for reproducibility. The original TE-PAI repository, on which this work is based, is linked here: https://github.com/CKiumi/te_pai.
+
 ---
 
 ## Table of Contents
